@@ -41,6 +41,7 @@
 #include <string_view> // @manual
 #endif
 
+#define FMT_HEADER_ONLY
 #if __has_include(<fmt/format.h>)
 #include <fmt/format.h>
 #endif

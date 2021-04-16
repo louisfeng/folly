@@ -939,6 +939,7 @@ class Boost(BuilderBase):
                 + args
                 + self.b2_args
                 + [
+                    "cxxflags=-fPIC",
                     "link=%s" % link,
                     "runtime-link=shared",
                     "variant=release",
